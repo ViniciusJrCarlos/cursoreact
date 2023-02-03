@@ -1,4 +1,8 @@
+* {
 
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
 
@@ -6,5 +10,46 @@ body {
     padding: 0;
     background-color: rgb(12, 116, 0);
     color: rgb(5, 135, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.comment{
+
+    min-width: 500px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: coral;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
 }
+
+.title{
+
+    font-size: 1.5em;
+    color: aqua;
+    margin-bottom: 20px;
+
+}
+
+.text {
+
+    font-size: 1em;
+    color: rgb(238, 132, 11);
+    margin-bottom: 20px;
+}
+
+.author{
+
+    text-align: right;
+    font-size: .8em;
+    color:black;
+}
+
